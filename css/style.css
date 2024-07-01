@@ -1,12 +1,6 @@
 /* 
     RESET
 */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 html {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -14,7 +8,17 @@ html {
 /* 
     GENERAL
 */
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
+.box {
+    height: 200px;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.box.blue {
+    background-color: blue;
+}
+
+.box.green {
+    background-color: green;
 }
